@@ -9,5 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias inst='sudo pacman -Syu'
-alias uninst='sudo pacman -Rs'
+alias uninst='sudo pacman -Rns'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
