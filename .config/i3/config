@@ -186,11 +186,11 @@ bar {
         statusline #2f343f
         separator #4b5262
 
-		# colour of border, background, and text
-        focused_workspace	#2f343f	#bf616a	#d8dee8
+		# colour of border, background, and te
+        focused_workspace	#2f343f	#226BDA	#d8dee8
         active_workspace	#2f343f	#2f343f	#d8dee8
         inactive_workspace	#2f343f	#2f343f	#d8dee8
-        urgent_workspace	#2f343f	#ebcb8b	#2f343f
+        urgent_workspace	#2f343f	#bf616a	#2f343f
     }
         status_command i3status
 }
@@ -201,9 +201,11 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/Increa
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute
 
+# Screenshot
+bindsym Print exec --no-startup-id termite -e ~/.scripts/Screenshot/imgur-screenshot.sh --hold
 
 # colour of border, background, text, indicator, and child_border
-client.focused			#bf616a #2f343f #38F6F6 #bf616a #38F6F6
+client.focused			#226BDA #2f343f #38F6F6 #226BDA #38F6F6
 client.focused_inactive	#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.unfocused		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.urgent			#2f343f #2f343f #38F6F6 #2f343f #2f343f
