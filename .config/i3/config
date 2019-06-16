@@ -202,7 +202,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute
 
 # Screenshot
-bindsym Print exec --no-startup-id termite -e ~/.scripts/Screenshot/imgur-screenshot.sh --hold
+bindsym Print exec --no-startup-id ~/.scripts/Screenshot/imgur-screenshot.sh
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #38F6F6
