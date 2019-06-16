@@ -3,6 +3,7 @@ x=$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | t
 if [[ $x -le 95 ]]
 then
 	pactl set-sink-volume 0 +5%
-else
+elif [[ $x -le 100 ]]
+then
 	pactl set-sink-volume 0 100%
 fi
