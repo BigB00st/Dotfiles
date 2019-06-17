@@ -10,6 +10,9 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $TERMINAL termite
+set $EDITOR vim
+set $FM ranger
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -39,7 +42,7 @@ font pango:DejaVu Sans Mono 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec $TERMINAL
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -106,7 +109,7 @@ bindsym $mod+a focus parent
 set $ws1 "1: Terminals"
 set $ws2 "2: Browser"
 set $ws3 "3: Programming"
-set $ws4 "4"
+set $ws4 "4: File Manager"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -138,10 +141,12 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# assign classes to workspaces
+# assign programs to workspaces
 assign [class="Termite"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="code-git"] $ws3
+for_window [title="$FM"] move to workspace $ws4
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -195,6 +200,8 @@ bar {
         status_command i3status
 }
 
+# File Manager
+bindsym $mod+Shift+f exec --no-startup-id $TERMINAL -e $FM -t $FM 
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/IncreaseAudio.sh #increase
