@@ -141,7 +141,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # assign programs to workspaces
 assign [class="Termite"] $ws1
 assign [class="Google-chrome"] $ws2
-assign [class="code-git"] $ws3
+assign [class="code-oss"] $ws3
 for_window [title="file_manager"] move to workspace $ws4
 
 # reload the configuration file
