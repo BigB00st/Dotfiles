@@ -1,6 +1,6 @@
 #!/bin/bash
 alias ls="ls -h --color=auto --group-directories-first"
-alias ll='ls -Al --color --group-directories-first | less -r'
+alias la='ls -Al --color --group-directories-first | less -r'
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias inst='sudo pacman -Syu'
