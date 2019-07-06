@@ -22,7 +22,7 @@ class empty(Command):
     """
 
     def execute(self):
-        self.fm.run("rm -rf /home/myname/.Trash/{*,.[^.]*}")
+        self.fm.run("rm -rf /home/amit/.local/share/Trash/files/{*,.[^.]*}")
 
 # Any class that is a subclass of "Command" will be integrated into ranger as a
 # command.  Try typing ":my_edit<ENTER>" in ranger!
