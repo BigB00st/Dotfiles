@@ -1,9 +1,15 @@
 #!/bin/bash
+
 alias ls="ls -h --color=auto --group-directories-first"
 alias la='ls -Al --color --group-directories-first | less -r'
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
+
+# package related
 alias inst='sudo pacman -Syu'
 alias uninst='sudo pacman -Rns'
 alias insta='yay -Syu'
+alias refupdate="sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+
+# git related
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
