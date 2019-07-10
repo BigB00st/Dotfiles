@@ -212,6 +212,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # 
 # Screenshot
 bindsym Print exec --no-startup-id ~/.scripts/Screenshot/imgur-screenshot.sh
 
+# Lock screen
+bindsym $mod+q exec --no-startup-id /usr/bin/i3lock-fancy
+
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #38F6F6
 client.focused_inactive	#2f343f #2f343f #38F6F6 #2f343f #2f343f
