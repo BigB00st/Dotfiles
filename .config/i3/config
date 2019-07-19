@@ -143,7 +143,7 @@ assign [class="Termite"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="code-oss"] $ws3
 assign [class="jetbrains-clion"] $ws3
-assign [class="qtfm"] $ws4
+for_window [title="file_manager"] move to workspace $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -198,7 +198,7 @@ bar {
 }
 
 # File Manager
-bindsym $mod+Shift+f exec --no-startup-id $FM
+bindsym $mod+Shift+f exec --no-startup-id $TERMINAL -e $FM -t "file_manager" 
 
 # Audio
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/IncreaseAudio.sh #increase
@@ -226,3 +226,4 @@ client.background		#2f343f
 # startup programs
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Mushroom_Biome.jpg #Background image
 exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
+exec_always --no-startup-id nm-applet
