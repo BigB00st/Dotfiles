@@ -143,7 +143,7 @@ assign [class="Termite"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="code-oss"] $ws3
 assign [class="jetbrains-clion"] $ws3
-for_window [title="file_manager"] move to workspace $ws4
+assign [class="qtfm"] $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -198,7 +198,7 @@ bar {
 }
 
 # File Manager
-bindsym $mod+Shift+f exec --no-startup-id $TERMINAL -e $FM -t "file_manager" 
+bindsym $mod+Shift+f exec --no-startup-id $FM
 
 # Audio
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/IncreaseAudio.sh #increase
