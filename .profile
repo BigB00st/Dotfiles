@@ -4,13 +4,7 @@ export EDITOR="vim"
 export TERMINAL="termite"
 export BROWSER="chrome"
 export PAGER="less"
-export FM="ranger"
-
-# Parameters for less: F - quit if not full screen, R - display colors, X - disable termcap
-#export LESS="-XR"
-
-# Add the scripts folder to the path
-#export PATH=$HOME/.scripts:$PATH
+export FM="qtfm"
 
 [ -f ~/.bashrc ] && source "$HOME/.bashrc"
 
