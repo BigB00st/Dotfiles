@@ -224,6 +224,7 @@ client.placeholder		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.background		#2f343f
 
 # startup programs
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Mushroom_Biome.jpg #Background image
-exec_always --no-startup-id compton --config ~/.config/compton/compton.conf
-exec_always --no-startup-id nm-applet
+exec --no-startup-id feh --bg-scale ~/Pictures/Mushroom_Biome.jpg #Background image
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
+exec --no-startup-id nm-applet
+exec --no-startup-id i3-battery-popup -s ~/Sounds/i3-battery-popup.wav
