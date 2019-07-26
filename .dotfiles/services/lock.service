@@ -1,0 +1,13 @@
+[Unit] 
+Description=Starts i3lock-fancy at suspend time 
+Before=sleep.target 
+
+[Service] 
+User=amit 
+Type=forking 
+Environment=DISPLAY=:0 
+ExecStartPre= 
+ExecStart=/usr/bin/i3lock-fancy
+
+[Install] 
+WantedBy=sleep.target 
