@@ -1,5 +1,5 @@
 ### My dotfiles
-This is a repository dedicated to back-up and sharing of my dotfiles.
+This is a repository dedicated to back-up and sharing of my dotfiles (and custom configuration files).
 
 ![Desktop](https://github.com/BigB00st/Dotfiles/blob/master/.dotfiles/.screenshots/desktop.png)
 
@@ -23,5 +23,5 @@ This is a repository dedicated to back-up and sharing of my dotfiles.
 | Font Name | Usage |
 | :--- | :---- |
 | [Font Awesome Icons](https://fontawesome.com/cheatsheet) | i3status |
-| [DejaVu Sans Mono 12](https://dejavu-fonts.github.io/) | i3status, termite |
+| [DejaVu Sans Mono](https://dejavu-fonts.github.io/) | i3status, termite |
 
