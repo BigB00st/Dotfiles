@@ -6,5 +6,4 @@ if [ "$EUID" -ne 0 ]
 fi
 
 sudo pacman -Syu # update packages
-paccache -rk0 # remove cached packages
-sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null # remove orphaned packages 
+paccache -rk1 # keep only previous version 
