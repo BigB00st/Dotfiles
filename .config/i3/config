@@ -106,7 +106,7 @@ bindsym $mod+a focus parent
 set $ws1 "1:"
 set $ws2 "2:"
 set $ws3 "3:"
-set $ws4 "4:"
+set $ws4 "4:"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -139,11 +139,10 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 # assign programs to workspaces
-assign [class="Termite"] $ws1
 assign [class="Google-chrome"] $ws2
 assign [class="code-oss"] $ws3
 assign [class="jetbrains-clion"] $ws3
-for_window [title="file_manager"] move to workspace $ws4
+assign [class="discord"] $ws4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -197,9 +196,6 @@ bar {
         status_command i3status
 }
 
-# File Manager
-bindsym $mod+Shift+f exec --no-startup-id $TERMINAL -e $FM -t "file_manager" 
-
 # Audio
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/IncreaseAudio.sh #increase
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease
@@ -211,9 +207,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # 
 
 # Screenshot
 bindsym Print exec --no-startup-id /usr/bin/imgur-screenshot
-
-# Lock screen
-bindsym $mod+q exec --no-startup-id /usr/bin/i3lock-fancy
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #38F6F6

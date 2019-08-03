@@ -15,4 +15,7 @@ alias refupdate="sudo reflector --latest 200 --protocol http --protocol https --
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # system related
-alias sysupdate='sudo ~/.scripts/system/maintenance.sh'
+alias sysupdate='~/.scripts/system/maintenance.sh'
+
+# program shortcuts
+alias r='ranger'
