@@ -8,7 +8,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | :--- | :--- |
 | Linux Distribution | [Arch Linux](https://www.archlinux.org/) |
 | Window Manager | [i3-gaps](https://github.com/Airblader/i3) |
-| Window Compositor | [compton](https://github.com/chjj/compton)
+| Window Compositor | [compton (active shadow fork)](https://github.com/jorchube/compton)
 | Bar | [i3status](https://i3wm.org/i3status/) |
 | Program Launcher | [dmenu](https://wiki.archlinux.org/index.php/dmenu) |
 | Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |
