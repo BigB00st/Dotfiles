@@ -1,9 +1,11 @@
-### My dotfiles
+# My dotfiles
 This is a repository dedicated to back-up and sharing of my dotfiles (and custom configuration files).
 
+## Screenshots
 ![Desktop](https://github.com/BigB00st/Dotfiles/blob/master/.dotfiles/.screenshots/desktop.png)
+![CMatrixDesktop](https://github.com/BigB00st/Dotfiles/blob/master/.dotfiles/.screenshots/cmatrixdesktop.png)
 
-# Overall View:
+## Overall View:
 | Program | Name |
 | :--- | :--- |
 | Linux Distribution | [Arch Linux](https://www.archlinux.org/) |
