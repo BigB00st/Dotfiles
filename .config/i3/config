@@ -20,8 +20,8 @@ gaps inner 20
 smart_gaps on
 
 # Borders
-new_window pixel 1
-new_float pixel 0
+new_window pixel 2
+new_float pixel 1
 hide_edge_borders both
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -209,7 +209,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # 
 bindsym Print exec --no-startup-id /usr/bin/imgur-screenshot
 
 # colour of border, background, text, indicator, and child_border
-client.focused			#226BDA #2f343f #38F6F6 #226BDA #38F6F6
+client.focused			#226BDA #2f343f #38F6F6 #226BDA #36F6F6
 client.focused_inactive	#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.unfocused		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.urgent			#2f343f #2f343f #38F6F6 #2f343f #2f343f
@@ -217,8 +217,8 @@ client.placeholder		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.background		#2f343f
 
 # startup programs
-exec --no-startup-id feh --bg-scale ~/Pictures/Mushroom_Biome.jpg #Background image
+exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
-exec --no-startup-id i3-battery-popup -s ~/Sounds/i3-battery-popup.wav
+exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
