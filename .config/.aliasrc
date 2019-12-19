@@ -1,9 +1,11 @@
 #!/bin/bash
 
+# command redefinition
 alias ls="ls -h --color=auto --group-directories-first"
 alias la='ls -Al --color --group-directories-first'
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
+alias xclip="xclip -selection c"
 
 # package related
 alias inst='sudo pacman -Syu'
