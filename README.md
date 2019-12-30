@@ -12,7 +12,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | Window Manager | [i3-gaps](https://github.com/Airblader/i3) |
 | Window Compositor | [compton (active shadow fork)](https://github.com/jorchube/compton)
 | Bar | [i3status](https://i3wm.org/i3status/) |
-| Program Launcher | [dmenu](https://wiki.archlinux.org/index.php/dmenu) |
+| Program Launcher | [Rofi](https://github.com/davatorium/rofi) |
 | Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |
 | CLI File Manager | [ranger](https://github.com/ranger/ranger) |
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
