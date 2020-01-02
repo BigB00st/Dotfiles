@@ -21,3 +21,7 @@ alias sysupdate='~/.scripts/system/maintenance.sh'
 
 # program shortcuts
 alias r='ranger'
+
+# recognize aliases after command
+alias sudo='sudo '
+alias watch='watch '
