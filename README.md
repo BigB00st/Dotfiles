@@ -18,7 +18,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
 | Screen-shot Tool | [imgur-screenshot](https://github.com/jomo/imgur-screenshot)|
 | Terminal | [termite](https://github.com/jwilm/alacritty) |
-| Code Editor | [VSCode](https://code.visualstudio.com/) and [CLion](https://www.jetbrains.com/clion/) |
+| Code Editor | [VSCode](https://code.visualstudio.com/) |
 | Lockscreen | [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) |
 
 ### Fonts used:
