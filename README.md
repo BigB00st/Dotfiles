@@ -16,7 +16,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |
 | CLI File Manager | [ranger](https://github.com/ranger/ranger) |
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
-| Screen-shot Tool | [imgur-screenshot](https://github.com/jomo/imgur-screenshot)|
+| Screen-shot Tool | [maim](https://github.com/naelstrof/maim)|
 | Terminal | [termite](https://github.com/jwilm/alacritty) |
 | Code Editor | [VSCode](https://code.visualstudio.com/) |
 | Lockscreen | [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) |
