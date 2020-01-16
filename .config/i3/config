@@ -202,7 +202,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 -time 0 # in
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # decrease
 
 # Screenshot
-bindsym Print exec --no-startup-id /usr/bin/imgur-screenshot
+bindsym Print exec --no-startup-id /usr/bin/maim -s ~/Pictures/screenshot-$(date +"%d-%m-%Y-%H:%M:%S").png
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #36F6F6
