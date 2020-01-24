@@ -71,6 +71,7 @@ shadow-exclude = [
     "name *= 'VLC'",
     "name *= 'compton'",
     "name *= 'Chromium'",
+	"name = 'Polybar tray window'",
 	"class_g = 'Firefox' && argb",
     "class_g = 'Conky'",
     "class_g = 'Kupfer'",
