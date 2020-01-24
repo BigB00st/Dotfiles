@@ -215,7 +215,6 @@ client.background		#2f343f
 # startup programs
 exec --no-startup-id picom --config $HOME/.config/picom/config
 exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
-exec --no-startup-id nm-applet
 exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
