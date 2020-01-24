@@ -99,10 +99,10 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:"
-set $ws2 "2:"
-set $ws3 "3:"
-set $ws4 "4:"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -175,25 +175,25 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Bar
-bar {
-	strip_workspace_numbers yes
-	font pango:DejaVu Sans Mono 12, Font Awesome 12
-	colors {
-        background #2f343f
-        statusline #2f343f
-        separator #4b5262
-
-		# colour of border, background, and te
-        focused_workspace	#2f343f	#226BDA	#d8dee8
-        active_workspace	#2f343f	#2f343f	#d8dee8
-        inactive_workspace	#2f343f	#2f343f	#d8dee8
-        urgent_workspace	#2f343f	#bf616a	#2f343f
-    }
-        status_command i3status
-}
+#bar {
+#	strip_workspace_numbers yes
+#	font pango:DejaVu Sans Mono 12, Font Awesome 12
+#	colors {
+#        background #2f343f
+#        statusline #2f343f
+#        separator #4b5262
+#
+#		# colour of border, background, and te
+#        focused_workspace	#2f343f	#226BDA	#d8dee8
+#        active_workspace	#2f343f	#2f343f	#d8dee8
+#        inactive_workspace	#2f343f	#2f343f	#d8dee8
+#        urgent_workspace	#2f343f	#bf616a	#2f343f
+#    }
+#        status_command i3status
+#}
 
 # Audio
-bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/AudioControl/IncreaseAudio.sh #increase
+bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/.scripts/AudioControl/IncreaseAudio.sh #increase
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute
 
@@ -202,7 +202,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 -time 0 # in
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # decrease
 
 # Screenshot
-bindsym Print exec --no-startup-id /usr/bin/maim -s ~/Pictures/screenshot-$(date +"%d-%m-%Y-%H:%M:%S").png
+bindsym Print exec --no-startup-id /usr/bin/maim -s $HOME/Pictures/screenshot-$(date +"%d-%m-%Y-%H:%M:%S").png
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #36F6F6
@@ -213,8 +213,9 @@ client.placeholder		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.background		#2f343f
 
 # startup programs
+exec --no-startup-id picom --config $HOME/.config/picom/config
 exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
-exec --no-startup-id compton --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
