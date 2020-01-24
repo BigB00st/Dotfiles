@@ -52,15 +52,17 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = DejaVy Sans Mono:pixelsize=12;1
+font-0 = DejaVu Sans Mono:pixelsize=12;1
 font-1 = Font Awesome:pixelsize=12;1
+font-2 = DejaVu Sans Mono:pixelsize=12;3
+font-3 = Font Awesome:pixelsize=12;2
 
 modules-left = i3 xwindow 
 modules-center =
 modules-right = xbacklight alsa xkeyboard filesystem cpu wlan eth battery date powermenu
 
 tray-position = ${env:TRAY_POSITION:right}
-tray-padding = 2
+tray-padding = 1
 ;tray-background = #0063ff
 
 ;wm-restack = i3
@@ -87,7 +89,7 @@ format-prefix-underline = ${colors.secondary}
 label-layout = %layout%
 label-layout-underline = ${colors.secondary}
 
-label-indicator-padding = 2
+label-indicator-padding = 1
 label-indicator-margin = 1
 label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
@@ -101,7 +103,7 @@ wrapping-scroll = true
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-label-mode-padding = 2
+label-mode-padding = 1
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
@@ -123,7 +125,7 @@ label-visible-padding = ${self.label-focused-padding}
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 ; Separator in between workspaces
 ; label-separator = |
@@ -144,6 +146,7 @@ type = internal/xbacklight
 
 format = <label> <bar>
 label = 
+label-font = 4
 
 bar-width = 10
 bar-indicator = |
@@ -176,8 +179,8 @@ mount-0 = /
 fixed-values = true
 format-mounted = <label-mounted>
 label-mounted = %free% Free
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${colors.foreground-alt}
 format-mounted-underline = #4bffdc
 
 [module/memory]
@@ -261,6 +264,7 @@ type = internal/alsa
 format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-volume-foreground = ${root.foreground}
+label-volume-font = 3
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
@@ -331,14 +335,17 @@ type = custom/menu
 
 expand-right = true
 
-format-spacing = 1
+format-spacing = 0
 
 label-open = " "
 label-open-foreground = ${colors.secondary}
-label-close = " cancel"
+label-open-font = 4
+label-close = " "
 label-close-foreground = ${colors.secondary}
+label-close-font = 4
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
+
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1
