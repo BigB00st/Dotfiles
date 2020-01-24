@@ -25,3 +25,7 @@ alias r='ranger'
 # recognize aliases after command
 alias sudo='sudo '
 alias watch='watch '
+
+# display
+alias d-vga='xrandr --output DP2 --mode 1920x1080'
+alias d-hdmi='xrandr --output HDMI1 --mode 1920x1080'
