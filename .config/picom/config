@@ -112,14 +112,13 @@ blur-background-exclude = [
   "window_type = 'dock'",
   "window_type = 'desktop'",
   "class_g ?= 'rofi'",
-  "class_g ?= 'maim'"
 ];
 
 opacity-rule = [
-  "55:class_g = 'Termite' && focused",
-  "85:class_g = 'Termite' && !focused",
-  "75:class_g = 'code-oss' && focused",
-  "90:class_g = 'code-oss' && !focused"
+  "85:class_g = 'Termite' && _NET_WM_STATE@:32a", # focused
+  "55:class_g = 'Termite' && !_NET_WM_STATE@:32a", # !focused
+  "90:class_g = 'code-oss' && _NET_WM_STATE@:32a", # focused
+  "75:class_g = 'code-oss' && !_NET_WM_STATE@:32a" # !focused
 ];
 
 #################################
