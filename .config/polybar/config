@@ -55,7 +55,7 @@ module-margin-right = 1
 font-0 = DejaVu Sans Mono:pixelsize=12;1
 font-1 = Font Awesome:pixelsize=12;1
 font-2 = DejaVu Sans Mono:pixelsize=12;3
-font-3 = Font Awesome:pixelsize=12;2
+font-3 = Font Awesome:pixelsize=12;3
 
 modules-left = i3 xwindow 
 modules-center =
@@ -73,6 +73,8 @@ scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 ;cursor-scroll = ns-resize
+
+bottom = true
 
 [module/xwindow]
 type = internal/xwindow
@@ -335,7 +337,7 @@ type = custom/menu
 
 expand-right = true
 
-format-spacing = 0
+format-spacing = 1
 
 label-open = " "
 label-open-foreground = ${colors.secondary}
