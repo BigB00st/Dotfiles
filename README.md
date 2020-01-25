@@ -10,13 +10,13 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | :--- | :--- |
 | Linux Distribution | [Arch Linux](https://www.archlinux.org/) |
 | Window Manager | [i3-gaps](https://github.com/Airblader/i3) |
-| Window Compositor | [picom](https://github.com/yshui/picom)
+| Window Compositor | [picom-tryone](https://github.com/tryone144/compton/tree/feature/dual_kawase) |
 | Bar | [polybar](https://github.com/polybar/polybar) |
-| Program Launcher | [Rofi](https://github.com/davatorium/rofi) |
+| Program Launcher | [rofi](https://github.com/davatorium/rofi) |
 | Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |
 | CLI File Manager | [ranger](https://github.com/ranger/ranger) |
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
-| Screen-shot Tool | [maim](https://github.com/naelstrof/maim)|
+| Screenshot Tool | [deepin-screenshot](https://www.deepin.org/en/original/deepin-screenshot/)|
 | Terminal | [termite](https://github.com/jwilm/alacritty) |
 | Code Editor | [VSCode](https://code.visualstudio.com/) |
 | Lockscreen | [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) |
