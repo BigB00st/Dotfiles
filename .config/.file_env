@@ -1,2 +1,2 @@
-export WALLPAPER="$HOME/Pictures/Mushroom_Biome.jpg"
-export BATT_NOTIF="$HOME/Sounds/i3-battery-popup.wav"
+export WALLPAPER="$HOME/pictures/Mushroom_Biome.jpg"
+export BATT_NOTIF="$HOME/sounds/i3-battery-popup.wav"
