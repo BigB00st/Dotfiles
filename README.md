@@ -3,7 +3,6 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 
 ## Screenshots
 ![Desktop](https://github.com/BigB00st/Dotfiles/blob/master/.dotfiles/.screenshots/desktop.png)
-![CMatrixDesktop](https://github.com/BigB00st/Dotfiles/blob/master/.dotfiles/.screenshots/cmatrixdesktop.png)
 
 ## Overall View:
 | Program | Name |
@@ -24,6 +23,6 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 ### Fonts used:
 | Font Name | Usage |
 | :--- | :---- |
-| [Font Awesome Icons](https://fontawesome.com/cheatsheet) | i3status |
-| [DejaVu Sans Mono](https://dejavu-fonts.github.io/) | i3status, termite |
+| [Font Awesome Icons](https://fontawesome.com/cheatsheet) | polybar |
+| [DejaVu Sans Mono](https://dejavu-fonts.github.io/) | polybar, termite |
 
