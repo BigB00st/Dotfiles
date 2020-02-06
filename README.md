@@ -9,7 +9,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | :--- | :--- |
 | Linux Distribution | [Arch Linux](https://www.archlinux.org/) |
 | Window Manager | [i3-gaps](https://github.com/Airblader/i3) |
-| Window Compositor | [picom-tryone](https://github.com/tryone144/compton/tree/feature/dual_kawase) |
+| Window Compositor | [compton-tryone](https://github.com/tryone144/compton) |
 | Bar | [polybar](https://github.com/polybar/polybar) |
 | Program Launcher | [rofi](https://github.com/davatorium/rofi) |
 | Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |

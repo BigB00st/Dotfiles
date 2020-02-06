@@ -213,7 +213,7 @@ client.placeholder		#2f343f #2f343f #38F6F6 #2f343f #2f343f
 client.background		#2f343f
 
 # startup programs
-exec --no-startup-id picom --experimental-backends --config $HOME/.config/picom/config
+exec --no-startup-id compton --config $HOME/.config/compton/config
 exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
 exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
