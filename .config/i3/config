@@ -217,4 +217,5 @@ exec --no-startup-id compton --config $HOME/.config/compton/config
 exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
 exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
+exec --no-startup-id udiskie --no-notify
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
