@@ -79,6 +79,7 @@ bottom = true
 [module/xwindow]
 type = internal/xwindow
 label = %title%
+label-maxlen = 100
 
 [module/xkeyboard]
 type = internal/xkeyboard
