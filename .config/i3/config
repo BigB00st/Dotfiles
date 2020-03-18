@@ -16,7 +16,10 @@ set $mod Mod4
 #font pango:monospace 8
 
 # Gaps
-gaps inner 20
+set $inner 20
+set $outer 0
+gaps outer $outer
+gaps inner $inner
 smart_gaps on
 
 # Borders
@@ -43,6 +46,12 @@ bindsym $mod+Return exec $TERMINAL
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+# default gaps
+bindsym $mod+Shift+t gaps inner current set $inner; gaps outer current set $outer
+
+# no gaps
+bindsym $mod+Shift+g gaps inner current set 0; gaps outer current set 0
 
 # program launcher.
 bindsym $mod+d exec --no-startup-id rofi -show drun
