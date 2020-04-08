@@ -12,7 +12,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | Window Compositor | [compton-tryone](https://github.com/tryone144/compton) |
 | Bar | [polybar](https://github.com/polybar/polybar) |
 | Program Launcher | [rofi](https://github.com/davatorium/rofi) |
-| Web Browser | [chrome](https://www.google.com/intl/iw_il/chrome/) |
+| Web Browser | [Firefox](https://www.mozilla.org/) |
 | CLI File Manager | [ranger](https://github.com/ranger/ranger) |
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
 | Screenshot Tool | [deepin-screenshot](https://www.deepin.org/en/original/deepin-screenshot/)|
