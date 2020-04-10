@@ -1,0 +1,4 @@
+#!/bin/bash
+
+function ida(){ if [ -z "$1" ]; then bash -c 'wine "$IDA" &> /dev/null &'; else bash -c 'wine "$IDA" $0 &> /dev/null &' $1; fi; }
+function ida64(){ if [ -z "$1" ]; then bash -c 'wine "$IDA64" &> /dev/null &'; else bash -c 'wine "$IDA64" $0 &> /dev/null &' $1; fi; }

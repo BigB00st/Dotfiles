@@ -1,2 +1,5 @@
 export WALLPAPER="$HOME/Pictures/Mushroom_Biome.jpg"
 export BATT_NOTIF="$HOME/Sounds/i3-battery-popup.wav"
+
+export IDA="$HOME/.wine/drive_c/Program Files/IDA 7.0/ida.exe"
+export IDA64="$HOME/.wine/drive_c/Program Files/IDA 7.0/ida64.exe"
