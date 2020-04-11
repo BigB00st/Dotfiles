@@ -15,6 +15,7 @@ export TERM=xterm-256color
 
 # source files
 [ -f $HOME/.config/.aliasrc ] && source $HOME/.config/.aliasrc
+[ -f $HOME/.config/.functionrc ] && source $HOME/.config/.functionrc
 
 # completion
 [ -f /usr/share/bash-completion/bash_completion ] && source /usr/share/bash-completion/bash_completion
