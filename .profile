@@ -8,6 +8,7 @@ export FILE="ranger"
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+export SCREENSHOT_TOOL="deepin-screenshot"
 
 [ -f ~/.bashrc ] && source "$HOME/.bashrc"
 [ -f ~/.config/.file_env ] && source "$HOME/.config/.file_env"
