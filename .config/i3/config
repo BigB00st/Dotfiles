@@ -211,7 +211,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 -time 0 # in
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # decrease
 
 # Screenshot
-bindsym Print exec --no-startup-id $SCREENSHOT 
+bindsym Print exec --no-startup-id flameshot gui 
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #36F6F6
@@ -227,4 +227,5 @@ exec --no-startup-id feh --bg-scale $WALLPAPER #Background image
 exec --no-startup-id i3-battery-popup -s $BATT_NOTIF
 exec --no-startup-id redshift
 exec --no-startup-id udiskie --no-notify
+exec --no-startup-id flameshot
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
