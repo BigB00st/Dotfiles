@@ -15,7 +15,7 @@ This is a repository dedicated to back-up and sharing of my dotfiles (and custom
 | Web Browser | [Firefox](https://www.mozilla.org/) |
 | CLI File Manager | [ranger](https://github.com/ranger/ranger) |
 | Wallpaper Setter | [feh](https://github.com/derf/feh) |
-| Screenshot Tool | [deepin-screenshot](https://www.deepin.org/en/original/deepin-screenshot/)|
+| Screenshot Tool | [flameshot](https://github.com/lupoDharkael/flameshot) |
 | Terminal | [termite](https://github.com/jwilm/alacritty) |
 | Code Editor | [VSCode](https://code.visualstudio.com/) |
 | Lockscreen | [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) |
