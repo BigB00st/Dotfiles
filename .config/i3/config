@@ -211,7 +211,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 -time 0 # in
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10 -time 0 # decrease
 
 # Screenshot
-bindsym Print exec --no-startup-id deepin-screenshot 
+bindsym Print exec --no-startup-id $SCREENSHOT 
 
 # colour of border, background, text, indicator, and child_border
 client.focused			#226BDA #2f343f #38F6F6 #226BDA #36F6F6

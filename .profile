@@ -7,8 +7,9 @@ export PAGER="less"
 export FILE="ranger"
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN
-export SCREENSHOT_TOOL="deepin-screenshot"
+export GEMBIN=$HOME/.gem/ruby/2.7.0/bin
+export PATH=$PATH:$GOBIN:$GEMBIN
+export SCREENSHOT="flameshot gui"
 
 [ -f ~/.bashrc ] && source "$HOME/.bashrc"
 [ -f ~/.config/.file_env ] && source "$HOME/.config/.file_env"

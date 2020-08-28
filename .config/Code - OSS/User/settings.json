@@ -1,5 +1,8 @@
 {
     "go.formatTool": "goimports",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
     "editor.formatOnSave": true,
-    "files.autoSave": "afterDelay"
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
