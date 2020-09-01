@@ -32,3 +32,4 @@ alias pdockr='sudo docker run --rm -v $(pwd):/pwd --cap-add=SYS_PTRACE --securit
 alias pdocke="sudo docker exec -it ctf /bin/bash"
 alias pdocks="sudo docker stop ctf"
 
+alias pwninit='pwninit --template-path ~/.config/pwninit/template.py'
