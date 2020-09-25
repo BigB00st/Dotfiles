@@ -8,3 +8,4 @@ set showcmd
 set nocompatible
 set wrap
 set linebreak
+set belloff=all
